@@ -40,7 +40,7 @@ void saveData(Snack *s[], int count){
     FILE *fp;
     fp = fopen("snack.txt","wt");
     for(int i=0;i<count;i++){
-        if(s[i]->price !=-1){
+        if(s[i]!=NULL){
 
             fprintf(fp,"%s %d %d %f %d\n",s[i]->name, s[i]->gram, s[i]->price, s[i]->price_gram, s[i]->star);
         }
