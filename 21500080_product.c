@@ -36,12 +36,6 @@ int updateSnack(Snack *s){
     return 1;
 }
 
-int deleteSnack(Snack *s){
-    s->price=-1;
-
-    return 1;
-}
-
 void saveData(Snack *s[], int count){
     FILE *fp;
     fp = fopen("snack.txt","wt");
