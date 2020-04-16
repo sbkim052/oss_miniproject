@@ -107,7 +107,7 @@ int main(void){
 	printf("Debug : %s %s %s %d\n", __DATE__, __TIME__, __FILE__,__LINE__);
 #endif            
             if(count==0) printf("데이터가 없습니다!\n");
-            else saveData(sp,count);
+            else saveData(sp,curcount);
 #ifdef DEBUG
 	printf("Debug : %s %s %s %d\n", __DATE__, __TIME__, __FILE__,__LINE__);
 #endif            
