@@ -61,7 +61,6 @@ int loadData(Snack* s[]){
 
         s[count] = (Snack*)malloc(sizeof(Snack));
         fscanf(fp,"%s %d %d %f %d\n", s[count]->name, &(s[count]->gram), &(s[count]->price), &(s[count]->price_gram), &(s[count]->star));
-        printf("%d만큼 진행했습니다\n",count);
         if(feof(fp)) break;
     }
     fclose(fp);
