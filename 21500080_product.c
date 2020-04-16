@@ -134,7 +134,7 @@ void search_Price(Snack *s[], int count){
     int scount = 0;
     int price;
 
-    printf("가격 범위?");
+    printf("가격 범위(0원 이상)?");
     scanf("%d",&price);
     printf("%d 이하의 가격 검색...\n",price);
     
