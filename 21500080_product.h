@@ -11,7 +11,6 @@ typedef struct{
 int addSnack(Snack *s); 
 void readSnack(Snack s); 
 int updateSnack(Snack *s); 
-int deleteSnack(Snack *s); 
 
 void saveData(Snack *s[], int count); 
 int loadData(Snack *s[]); 
