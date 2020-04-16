@@ -120,7 +120,7 @@ void search_Star(Snack *s[], int count){
 
     printf("별점 입력(1 ~ 5)?");
     scanf("%d",&star);
-    printf("%d 이상의 별점 검색...\n\n",star);
+    printf("%d 이상의 별점 검색...\n",star);
     
     printf("\nNo Name   (g)  (won)  (per)  star\n");
     printf("===============================\n");
@@ -143,7 +143,7 @@ void search_Price(Snack *s[], int count){
 
     printf("가격 범위?");
     scanf("%d",&price);
-    printf("%d 이하의 가격 검색...\n\n",price);
+    printf("%d 이하의 가격 검색...\n",price);
     
     printf("\nNo Name   (g)  (won)  (per)  star\n");
     printf("===============================\n");
