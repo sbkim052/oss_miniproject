@@ -118,7 +118,7 @@ void search_Star(Snack *s[], int count){
     int scount = 0;
     int star;
 
-    printf("별점 범위(1 ~ 5)?");
+    printf("별점 입력(1 ~ 5)?");
     scanf("%d",&star);
     printf("%d 이상의 별점 검색...\n\n",star);
     
